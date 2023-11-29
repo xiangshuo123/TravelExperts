@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="342.0" prefWidth="922.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.travelexpertsadministrator.AddEditPackageProductSupplierController">
+   <children>
+      <ImageView fitHeight="93.0" fitWidth="92.0" layoutX="415.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../connect.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="165.0" layoutX="17.0" layoutY="113.0" stroke="BLACK" strokeType="INSIDE" width="889.0" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="113.0" />
+      <Label layoutX="73.0" layoutY="38.0" text="Package ID:" AnchorPane.leftAnchor="73.0" AnchorPane.topAnchor="38.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSave" layoutX="701.0" layoutY="291.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="56.0" text="Save" AnchorPane.bottomAnchor="24.0" AnchorPane.topAnchor="291.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCancel" layoutX="841.0" layoutY="291.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="56.0" text="Cancel" AnchorPane.bottomAnchor="24.0" AnchorPane.topAnchor="291.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="23.0" layoutY="186.0" text="Package Name:" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="186.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPackageName" editable="false" layoutX="118.0" layoutY="182.0" prefHeight="25.0" prefWidth="281.0" AnchorPane.leftAnchor="118.0" AnchorPane.topAnchor="182.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="chbPackageId" layoutX="168.0" layoutY="35.0" prefWidth="150.0" AnchorPane.leftAnchor="168.0" AnchorPane.topAnchor="35.0" />
+      <Label layoutX="23.0" layoutY="75.0" text="Product_Supplier ID:" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="75.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="chbProductSupplier" layoutX="168.0" layoutY="72.0" prefWidth="150.0" AnchorPane.leftAnchor="168.0" AnchorPane.topAnchor="72.0" />
+      <TextField fx:id="tfProductName" layoutX="616.0" layoutY="162.0" prefHeight="25.0" prefWidth="281.0" AnchorPane.leftAnchor="616.0" AnchorPane.topAnchor="162.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfSupplierName" layoutX="616.0" layoutY="201.0" prefHeight="25.0" prefWidth="281.0" AnchorPane.leftAnchor="616.0" AnchorPane.topAnchor="201.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="515.0" layoutY="166.0" text="Product Name:" AnchorPane.leftAnchor="515.0" AnchorPane.topAnchor="166.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="513.0" layoutY="205.0" text="Supplier Name:" AnchorPane.leftAnchor="513.0" AnchorPane.topAnchor="205.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
