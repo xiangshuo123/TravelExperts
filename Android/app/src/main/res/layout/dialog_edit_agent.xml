@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <EditText
+            android:id="@+id/editTextAgentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Agent ID"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextAgtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/editTextAgtMiddleInitial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Middle Initial" />
+
+        <EditText
+            android:id="@+id/editTextAgtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/editTextAgtBusPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Business Phone"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextAgtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextAgtPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Position" />
+
+        <Spinner
+            android:id="@+id/spinnerAgencyId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Agency ID"
+            android:inputType="number" />
+
+    </LinearLayout>
+</ScrollView>

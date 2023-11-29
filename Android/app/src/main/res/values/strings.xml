@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TravelExperts</string>
+    <string name="travel_icon_description">Travel Icon</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="add_agent">Add Agent</string>
+    <string name="add_booking">Add Booking</string>
+    <string name="select_customer_id">Select Customer ID</string>
+    <string name="select_trip_type_id">Select Trip Type ID</string>
+    <string name="select_package_id">Select Package ID</string>
+
+</resources>

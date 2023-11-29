@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <EditText
+            android:id="@+id/editTextCustomerId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer ID"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextCustFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/editTextCustLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/editTextCustAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address" />
+
+        <EditText
+            android:id="@+id/editTextCustCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City" />
+
+        <EditText
+            android:id="@+id/editTextCustProv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Province" />
+
+        <EditText
+            android:id="@+id/editTextCustPostal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Postal Code" />
+
+        <EditText
+            android:id="@+id/editTextCustCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country" />
+
+        <EditText
+            android:id="@+id/editTextCustHomePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Home Phone"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextCustBusPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Business Phone"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editTextCustEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress" />
+
+        <Spinner
+            android:id="@+id/spinnerAgentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Agent ID"
+            android:inputType="number" />
+
+    </LinearLayout>
+</ScrollView>

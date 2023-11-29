@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TravelExperts Database"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Travel Icon -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/travel_icon_description"
+        android:src="@drawable/logo_black" />
+
+    <!-- Customers Button -->
+    <Button
+        android:id="@+id/btnCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customers"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"/>
+
+    <!-- Bookings Button -->
+    <Button
+        android:id="@+id/btnBookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bookings"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"/>
+
+    <!-- Agents Button -->
+    <Button
+        android:id="@+id/btnAgents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agents"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
