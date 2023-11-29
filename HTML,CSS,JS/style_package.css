@@ -1,0 +1,32 @@
+.bg-beige{
+	background-color: beige;
+}
+figure{
+  border: 2px solid #ccddee;
+  padding: 10px;
+}
+.v_image{
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+figcaption {
+  font-size: 16pt;
+  font: italic  sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+#p4 {background-color:rgba(192,192,192,0.3);}
+
+.checked {
+  color: orange;
+}
+
+table {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  
+}
